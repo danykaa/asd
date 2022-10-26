@@ -1,4 +1,12 @@
 body {
     background-color: moccasin;
-    color: navy
+    color: navy;
+}
+
+hr {
+    width: 400px;
+}
+
+.container {
+    width: 700px !important;
 }
