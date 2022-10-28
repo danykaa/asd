@@ -1,0 +1,12 @@
+body {
+    background-color: #cd5c5c;
+}
+
+.container {
+    border: "1";
+    border-width: 1px;
+    background-color: darksalmon;
+}
+.szab {
+    border: 80%;
+}
