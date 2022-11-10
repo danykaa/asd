@@ -1,12 +1,18 @@
 body {
-    background-color: #cd5c5c;
+    background-color: rgb(224, 224, 224);
+    color: black;
 }
 
-.container {
-    border: "1";
-    border-width: 1px;
-    background-color: darksalmon;
+a, a:visited, a:active, a:hover {
+    color: #666584;
 }
-.szab {
-    border: 80%;
+
+#kontener1 {
+    background-color: #5c6b7b;
+    width: 650px;
+}
+
+#kontener2 {
+    background-color: white;
+    width: 600px;
 }
