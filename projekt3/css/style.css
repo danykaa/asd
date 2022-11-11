@@ -1,18 +1,25 @@
 body {
-    background-color: rgb(224, 224, 224);
+    background-color: #E0E0E0;
     color: black;
 }
 
 a, a:visited, a:active, a:hover {
-    color: #666584;
+    color: #666584
 }
 
 #kontener1 {
-    background-color: #5c6b7b;
+    background-color: #5C6B7B;
     width: 650px;
+    margin: 0;
 }
 
 #kontener2 {
     background-color: white;
     width: 600px;
+    margin: 0;
+    text-align: center;
+}
+
+#sorszin {
+    background-color: #CDDBEB;
 }
