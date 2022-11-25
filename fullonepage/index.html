@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Stílus állomány-->
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css./style.css">
     <!--Az oldal címsorában megjelenő icon-->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -13,6 +14,11 @@
     <!--Betűtípusok hivatkozásai-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountserrat:400,700" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" type="text/css">
+    <!--Egyedi script meghívása-->
+    <script src="js/scripts.js"></script>
+    <!--Bootstrap script meghívása-->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <title>Bemutatkozó oldalam</title>
 </head>
 <body  id="page-top">
@@ -22,12 +28,12 @@
             <!--Bal felső "cégnév" és annak a linkje az oldal tetejére-->
             <a class="navbar-brand" href="#page-top">『Ｃ． ＣＯＭＰＡＮＹ．』</a>
             <!--Telefonos Menü gomb-->
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aia-label="Nyomd meg a gombot">
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-success text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aia-label="Nyomd meg a gombot">
                 Menü 
                 <i class="fas fa-bars"></i>
             </button>
             <!--Menü kezdete-->
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <!--Menü felsorolása-->
                 <ul class="navbar-nav ms-auto">
                     <!--Menü elemeinek megadása-->
@@ -38,7 +44,23 @@
             </div>
        </div>
     </nav>
-    <header></header>
+    <!--Fő fejléc kezdete-->
+    <header class="masthead bg-success text-white text-center">
+        <div class="contanier d-flex align-items-center flex-column">
+        <!--Fő fejléc avatár képe-->
+        <img class="masthead-avatar mb-5" src="images/avataaars.svg" alt="kiraj apja">
+        <!--Fejléc címe-->
+        <h1 class="masthead-heading text-uppercase mb-0">Ｋｉｒａｊ  ａｐｊａ</h1>
+        <!--Ikon és elválasztó elhelyezése a cím alá-->
+        <div class="divider-custom divider-light">
+            <!--Elválasztó vonal-->
+            <div class="divider-custom-line"></div>
+            <i class="fas fa-bars"></i>
+            <!--Elválasztó vonal-->
+            <div class="divider-custom-line"></div>
+        </div>
+        </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
