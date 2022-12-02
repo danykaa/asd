@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,8 @@
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!--Betűtípusok hivatkozásai-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mountserrat:400,700" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+        type="text/css">
     <!--Egyedi script meghívása-->
     <script src="js/scripts.js"></script>
     <!--Bootstrap script meghívása-->
@@ -21,15 +23,18 @@
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <title>Bemutatkozó oldalam</title>
 </head>
-<body  id="page-top">
+
+<body id="page-top">
     <!--Navigációs menü rész-->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <!--Bal felső "cégnév" és annak a linkje az oldal tetejére-->
             <a class="navbar-brand" href="#page-top">『Ｃ． ＣＯＭＰＡＮＹ．』</a>
             <!--Telefonos Menü gomb-->
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-success text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aia-label="Nyomd meg a gombot">
-                Menü 
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-success text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aia-label="Nyomd meg a gombot">
+                Menü
                 <i class="fas fa-bars"></i>
             </button>
             <!--Menü kezdete-->
@@ -37,30 +42,33 @@
                 <!--Menü felsorolása-->
                 <ul class="navbar-nav ms-auto">
                     <!--Menü elemeinek megadása-->
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfólió</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Rólunk</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Elérhetőség</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">Portfólió</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#about">Rólunk</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contact">Elérhetőség</a></li>
                 </ul>
             </div>
-       </div>
+        </div>
     </nav>
     <!--Fő fejléc kezdete-->
     <header class="masthead bg-success text-white text-center">
         <div class="contanier d-flex align-items-center flex-column">
-        <!--Fő fejléc avatár képe-->
-        <img class="masthead-avatar mb-5" src="images/avataaars.svg" alt="kiraj apja">
-        <!--Fejléc címe-->
-        <h1 class="masthead-heading text-uppercase mb-0">Ｋｉｒａｊ  ａｐｊａ</h1>
-        <!--Ikon és elválasztó elhelyezése a cím alá-->
-        <div class="divider-custom divider-light">
-            <!--Elválasztó vonal-->
-            <div class="divider-custom-line"></div>
-            <!--Egyedi ikon elhelyezése-->
-            <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-            <!--Elválasztó vonal-->
-            <div class="divider-custom-line"></div>
-        </div>
-        <p class="masthead-subheading font-weight-bold mb-0">Gypsy - C típusú - Nem napon barnult </p>
+            <!--Fő fejléc avatár képe-->
+            <img class="masthead-avatar mb-5" src="images/avataaars.svg" alt="kiraj apja">
+            <!--Fejléc címe-->
+            <h1 class="masthead-heading text-uppercase mb-0">Ｋｉｒａｊ ａｐｊａ</h1>
+            <!--Ikon és elválasztó elhelyezése a cím alá-->
+            <div class="divider-custom divider-light">
+                <!--Elválasztó vonal-->
+                <div class="divider-custom-line"></div>
+                <!--Egyedi ikon elhelyezése-->
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <!--Elválasztó vonal-->
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="masthead-subheading font-weight-bold mb-0">Gypsy - C típusú - Nem napon barnult </p>
         </div>
     </header>
     <main>
@@ -80,13 +88,25 @@
                 </div>
                 <!--Portfólió elemei itt kezdődnek-->
                 <div class="row justify-content-center">
+                    <!--Portfólió 1. eleme-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <!--Itt folytatjuk-->
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="portfolioModal1">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <img src="images/cabin.png" alt="Első munkám" class="img-fluid" title="Első munkám">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
