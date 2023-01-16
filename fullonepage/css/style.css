@@ -218,3 +218,15 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+@media (max-width: 480px) {
+  #contactFormStart {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1281px) {
+  #contactFormStart {
+    width: 50%;
+  }
+}

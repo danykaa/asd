@@ -206,11 +206,53 @@
                      <!--Elválasztó vonal-->
                      <div class="divider-custom-line"></div>
                 </div>
+                <!--Űrlap kezdete-->
+                <div id="contactFormStart" class="container">
+                    <form id="contactForm">
+                        <!--Név mező-->
+                        <div class="mb-0">
+                            <label class="form-label fw-bald" for="emailAddress">Név</label>
+                            <input class="form-control" id="email" type="email" placeholder="Vicc Elek">
+                        </div>
+                        <!--Email mező-->
+                        <div class="mb-0">
+                            <label class="form-label fw-bald" for="emailAddress">Email</label>
+                            <input class="form-control" id="email" type="email" placeholder="valami@nagy.hu">
+                        </div>
+                        <!--Üzenet mező-->
+                        <div class="mb-0">
+                            <label class="form-label fw-bald" for="massage">Üzenet</label>
+                            <textarea class="form-control" id="massage" type="text" placeholder="Ide írhatod az üzeneted"></textarea>
+                        </div>
+                        <!--Küldés gomb-->
+                        <div class="d-grid">
+                            <button class="btn btn-success btn-lg" type="submit">Üzenet küldése</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-
+     <!--Lábléc rész-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!--Lábléc-->
+                <div class="col-lg-4 mb-5 mg-lg-0">
+                    <h4 class="text uppercase mb-4">Helyszín</h4>
+                    <p class="lead mb-0">
+                        1234 Gypsybarbershop <br> Hős utca 12/A
+                    </p>
+                </div>
+                <!--Lábléc közösségi ikonok-->
+                <div class="col-lg-4 mb-5 mg-lg-0">
+                    <h4 class="text uppercase mb-4">Elérhetőségek</h4>
+                    <a class="btn btn-outline-light btn-social mx-1"href="https://facebook.com/Kovács Dániel"><i class="fab fa-fw fa-facebook"></i></a>
+                    <div class="col-lg-4 mb-5 mg-lg-0">
+                        <h4 class="text uppercase mb-4">Helyszín</h4>
+                </div>
+            </div>
+        </div>
     </footer>
     <!--Portfólió elemének tartalma-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
@@ -411,4 +453,4 @@
         </div>
     </div>
 </body>
-</html>
+</html> 
