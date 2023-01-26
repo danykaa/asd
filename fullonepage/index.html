@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
@@ -26,12 +26,12 @@
 
 <body id="page-top">
     <!--Navigációs menü rész-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
         <div class="container">
             <!--Bal felső "cégnév" és annak a linkje az oldal tetejére-->
-            <a class="navbar-brand" href="#page-top">『Ｃ． ＣＯＭＰＡＮＹ．』</a>
+            <a class="navbar-brand text-black" href="#page-top">Oldalam <img src="images/baldi-fortnite.gif" width="10%"></a>
             <!--Telefonos Menü gomb-->
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-success text-white rounded" type="button"
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-first text-black rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aia-label="Nyomd meg a gombot">
                 Menü
@@ -43,7 +43,7 @@
                 <ul class="navbar-nav ms-auto">
                     <!--Menü elemeinek megadása-->
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#portfolio">Portfólió</a></li>
+                            href="#portfolio">Kedvenc autóim</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#about">Rólunk</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
@@ -53,14 +53,14 @@
         </div>
     </nav>
     <!--Fő fejléc kezdete-->
-    <header class="masthead bg-success text-white text-center">
+    <header class="masthead bg-first text-white text-center">
         <div class="contanier d-flex align-items-center flex-column">
             <!--Fő fejléc avatár képe-->
-            <img class="masthead-avatar mb-5" src="images/avataaars.svg" alt="kiraj apja">
+            <img class="masthead-avatar mb-5" src="images/kriszhadvice-1.jpg" alt="kiraj apja">
             <!--Fejléc címe-->
-            <h1 class="masthead-heading text-uppercase mb-0">Ｋｉｒａｊ ａｐｊａ</h1>
+            <h1 id="message" class="masthead-heading text-black mb-0"></h1>
             <!--Ikon és elválasztó elhelyezése a cím alá-->
-            <div class="divider-custom divider-light">
+            <div class="divider-custom ">
                 <!--Elválasztó vonal-->
                 <div class="divider-custom-line"></div>
                 <!--Egyedi ikon elhelyezése-->
@@ -68,7 +68,7 @@
                 <!--Elválasztó vonal-->
                 <div class="divider-custom-line"></div>
             </div>
-            <p class="masthead-subheading font-weight-bold mb-0">Gypsy - C típusú - Nem napon barnult </p>
+            <p class="masthead-subheading text-black font-weight-bold mb-0">Hitoktató - Művész - Csak a pozitivitás</p>
         </div>
     </header>
     <main>
@@ -76,13 +76,13 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!--Portolio szekcio fo cime-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary  mb-0">Portfólió</h2>
+                <h2 class="page-section-heading text-center text-black mb-0">Kedvenc autóim</h2>
                 <!-- Ikon és elválasztó elhelyezése a cím alá-->
                 <div class="divider-custom">
                     <!--Elválasztó vonal-->
                     <div class="divider-custom-line"></div>
                     <!--Egyedi ikon elhelyezése-->
-                    <div class="divider-custom-icon"><i class="fas fa-dog"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-car"></i></div>
                     <!--Elválasztó vonal-->
                     <div class="divider-custom-line"></div>
                 </div>
@@ -92,34 +92,25 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus"></i>
-                                </div>
+                                class="d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
-                            <img src="images/cabin.png" alt="Első munkám" class="img-fluid" title="Első munkám">
+                            <img src="images/mclaren-racing.gif" alt="mclaren" class="img-fluid" title="mclaren">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus"></i>
-                                </div>
+                                class="d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
-                            <img src="images/cake.png" alt="Első munkám" class="img-fluid" title="Első munkám">
+                            <img src="images/koenigsegg-jesko-koenigsegg.gif" alt="koenigg" class="img-fluid" title="koenigg">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus"></i>
-                                </div>
+                                class="d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
-                            <img src="images/circus.png" alt="Első munkám" class="img-fluid" title="Első munkám">
+                            <img src="images/toyota-supra.gif" alt="supra" class="img-fluid" title="supra">
                         </div>
                     </div>
                 </div>
@@ -128,81 +119,78 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                             <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus"></i>
-                                </div>
+                                class="d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
-                            <img src="images/game.png" alt="Első munkám" class="img-fluid" title="Első munkám">
+                            <img src="images/brabus.gif" alt="merga" class="img-fluid" title="merga">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus"></i>
-                                </div>
+                                class="d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
-                            <img src="images/safe.png" alt="Első munkám" class="img-fluid" title="Első munkám">
+                            <img src="images/gtr.gif" alt="gtr" class="img-fluid" title="gtr">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus"></i>
-                                </div>
+                                class="d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
-                            <img src="images/submarine.png" alt="Első munkám" class="img-fluid" title="Első munkám">
+                            <img src="images/bmw-bmwe34.gif" alt="e34" class="img-fluid" title="e34">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="page-section bg-success text-white mb-0" id="about">
+        <section class="page-section bg-first text-black mb-0" id="about">
             <div class="container">
                 <!--Rolunk szekcio cime-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Rólunk</h2>
+                <h2 class="page-section-heading text-center text-black">Rólam</h2>
                 <!-- Ikon és elválasztó elhelyezése a cím alá-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom">
                     <!--Elválasztó vonal-->
                     <div class="divider-custom-line"></div>
                     <!--Egyedi ikon elhelyezése-->
-                    <div class="divider-custom-icon"><i class="fas fa-users"></i></div>
+                    <div class="divider-custom-icon text-black"><i class="fas fa-users"></i></div>
                     <!--Elválasztó vonal-->
                     <div class="divider-custom-line"></div>
                 </div>
                 <!--Rólunk szekcio tartalma-->
                 <div class="row">
                     <div class="col-lg-4 mx-auto">
-                        <p class="lead">Maga a cég nagyon sikeres cég. Kínlódj, hogy megtagadjam elfogadásukat, rugalmasan megnyitom őket, vagy bárki, válassza a szabad akarat örömeit, kérem, jöjjön ide, ahol fáj neki. Javasolt gyakran feltételezni őket.</p>
+                        <p class="lead">Szeretem az autókat, eléggé ott vagyok a témában, értek is hozzájuk. Érdekel a programozás is, csak nem vagyok benne a legjobb, de gyakorolgatok, próbálom fejleszteni a tudásom.</p>
                     </div>
                     <div class="col-lg-4 mx-auto">
-                        <p class="lead">Maga a cég nagyon sikeres cég. Kínlódj, hogy megtagadjam elfogadásukat, rugalmasan megnyitom őket, vagy bárki, válassza a szabad akarat örömeit, kérem, jöjjön ide, ahol fáj neki. Javasolt gyakran feltételezni őket.</p>
+                        <p class="lead"> Szabad időmben általában számítógépezni szoktam, ezekkel a játékokkal <a class="fw-bold text-black" href="file:///C:/Users/Kov%C3%A1cs%20L%C3%A1szl%C3%B3/Downloads/G%C3%A1meszk%C3%B3k%20(3).pdf">játszok.</a><-katt rá :)</p>
                     </div>
                 </div>
                 <!--Rólunk szekció gomb-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light text-uppercase" href="https://speed.hetzner.de/100MB.bin">
-                        <i class="fas fa-download"></i>
-                        LETÖLTÉS
+                    <a class="btn btn-xl btn-outline-secondary text-black" href="https://www.youtube.com/watch?v=xm3YgoEiEDc">
+                        <i class="fas fa-music"></i>
+                        「Kedvenc zeném」
+                    </a>
+                </div>
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-secondary text-black" href="https://www.eneba.com/store/games?gclid=CjwKCAiA5sieBhBnEiwAR9oh2gyWxIzUFwS4d4ZA19zD0mUsnzGlxeT5S9-47YkbZNsPNlOirOzirxoCH6gQAvD_BwE">
+                        <i class="fas fa-gamepad"></i>
+                        「Játékok olcsóbban」
                     </a>
                 </div>
             </div>
         </section>
         <!--Kapcsolat szekcio-->
-        <section class="page-section" id="contact">
+        <section class="page-section bg-sec" id="contact">
             <div class="container">
                  <!--Rolunk szekcio cime-->
-                 <h2 class="page-section-heading text-center text-uppercase text-secondary">Kapcsolat</h2>
+                 <h2 class="page-section-heading text-center text-black">Kapcsolat</h2>
                  <!-- Ikon és elválasztó elhelyezése a cím alá-->
                  <div class="divider-custom">
                      <!--Elválasztó vonal-->
                      <div class="divider-custom-line"></div>
                      <!--Egyedi ikon elhelyezése-->
-                     <div class="divider-custom-icon"><i class="fa fa-envelope"></i></div>
+                     <div class="divider-custom-icon text-black"><i class="fa fa-envelope"></i></div>
                      <!--Elválasztó vonal-->
                      <div class="divider-custom-line"></div>
                 </div>
@@ -211,22 +199,22 @@
                     <form id="contactForm">
                         <!--Név mező-->
                         <div class="mb-0">
-                            <label class="form-label fw-bald" for="emailAddress">Név</label>
-                            <input class="form-control" id="email" type="email" placeholder="Vicc Elek">
+                            <label class="form-label fw-bold" for="emailAddress">Név</label>
+                            <input class="form-control tr" id="email" type="email" placeholder="Vicc Elek">
                         </div>
                         <!--Email mező-->
                         <div class="mb-0">
-                            <label class="form-label fw-bald" for="emailAddress">Email</label>
-                            <input class="form-control" id="email" type="email" placeholder="valami@nagy.hu">
+                            <label class="form-label fw-bold" for="emailAddress">Email</label>
+                            <input class="form-control tr" id="email" type="email" placeholder="valami@nagy.hu">
                         </div>
                         <!--Üzenet mező-->
                         <div class="mb-0">
-                            <label class="form-label fw-bald" for="massage">Üzenet</label>
-                            <textarea class="form-control" id="massage" type="text" placeholder="Ide írhatod az üzeneted"></textarea>
+                            <label class="form-label fw-bold" for="massage">Üzenet</label>
+                            <textarea class="form-control tr" id="massage" type="text" placeholder="Ide írhatod az üzeneted"></textarea>
                         </div>
                         <!--Küldés gomb-->
                         <div class="d-grid">
-                            <button class="btn btn-success btn-lg" type="submit">Üzenet küldése</button>
+                            <button class="btn btn-silver btn-lg" type="submit">Üzenet küldése</button>
                         </div>
                     </form>
                 </div>
@@ -239,9 +227,9 @@
             <div class="row">
                 <!--Lábléc-->
                 <div class="col-lg-4 mb-5 mg-lg-0">
-                    <h4 class="text uppercase mb-4">Helyszín</h4>
+                    <h4 class="text uppercase mb-4">Lakhelyem</h4>
                     <p class="lead mb-0">
-                        1234 Gypsybarbershop <br> Hős utca 12/A
+                        1234 Szolnok, Gypsybarbershop <br> Hős utca 12/A
                     </p>
                 </div>
                 <!--Lábléc közösségi ikonok-->
@@ -249,221 +237,22 @@
                     <h4 class="text uppercase mb-4">Elérhetőségek</h4>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://facebook.com/Kovács Dániel" target="_blank"><i class="fab fa-fw fa-facebook"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://instagram.com/valami.dani" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://weboldala.hu" target="_blank"><i class="fa fa-globe"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="mallto:valami@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.timeapilates.hu" target="_blank"><i class="fa fa-globe"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:valami@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1" href="tel:+367055734310" target="_blank"><i class="fa-solid fa-phone"></i></a>
                 </div>
                 <!--Lábléc rólunk-->    
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Rólunk</h4>
+                    <h4 class="mb-4">Pozitív gondolat</h4>
                     <p class="lead mb-0">
-                        A <a class="fw-bold text-white" href="https//:hu.wikipedia.org/wiki/informatika"> programozás</a> olyan, mint a kirakós. Akkor működik jól, ha minden darab a helyére kerül.
-                    </p>
+                        A <a class="fw-bold text-white" href="https://hu.wikipedia.org/wiki/Boldogság"> boldogság</a> megtalálható még a legsötétebb időkben is, ha nem felejted el felkapcsolni a fényt.
                 </div>
             </div>
         </div>
     </footer>
     <div class="bg-dark text-center text-white py-3">
         <div class="contanier">
-            <small>Minden jog fenntartva &copy; CIGÁNY TEAM 2023</small>
-        </div>
-    </div>
-    <!--Portfólió elemének tartalma-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!--Portfolio modal cime-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Facigány</h2>
-                                <!-- Ikon és elválasztó elhelyezése a cím alá-->
-                                <div class="divider-custom">
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                    <!--Egyedi ikon elhelyezése-->
-                                    <div class="divider-custom-icon"><i class="fas fa-house"></i></div>
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <img class="img-fluid rounded mb-5" src="images/cabin.png" alt="Faház" title="Faház">
-                                <p class="mb-4">Maga a cég nagyon sikeres cég. Látni, hogy vannak olyan módok a követésére, amelyeket követni szeretne, és nem kevésbé ennek az élvezetnek a szükségleteiből születnek, mint amazok, és olyanok, akiket sürgetnek a dolgok, akik soha nem hagyják el őket! Elfogadja, hogy gyakran viseli az idők bajait, menekül a boldog bajok elől, keresi a megbocsátás minden örömét, gyűlöli a dolgok szeretetét.</p>
-                                <button class="btn btn-success" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Bezárás
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Portfólió elemének tartalma-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!--Portfolio modal cime-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Torcigány</h2>
-                                <!-- Ikon és elválasztó elhelyezése a cím alá-->
-                                <div class="divider-custom">
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                    <!--Egyedi ikon elhelyezése-->
-                                    <div class="divider-custom-icon"><i class="fas fa-cake-candles"></i></div>
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <img class="img-fluid rounded mb-5" src="images/cake.png" alt="Torta" title="Torta">
-                                <p class="mb-4">Maga a cég nagyon sikeres cég. Látni, hogy vannak olyan módok a követésére, amelyeket követni szeretne, és nem kevésbé ennek az élvezetnek a szükségleteiből születnek, mint amazok, és olyanok, akiket sürgetnek a dolgok, akik soha nem hagyják el őket! Elfogadja, hogy gyakran viseli az idők bajait, menekül a boldog bajok elől, keresi a megbocsátás minden örömét, gyűlöli a dolgok szeretetét.</p>
-                                <button class="btn btn-success" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Bezárás
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Portfólió elemének tartalma-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!--Portfolio modal cime-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circigány</h2>
-                                <!-- Ikon és elválasztó elhelyezése a cím alá-->
-                                <div class="divider-custom">
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                    <!--Egyedi ikon elhelyezése-->
-                                    <div class="divider-custom-icon"><i class="fas fa-person-falling"></i></div>
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <img class="img-fluid rounded mb-5" src="images/circus.png" alt="Cirkusz" title="Cirkusz">
-                                <p class="mb-4">Maga a cég nagyon sikeres cég. Látni, hogy vannak olyan módok a követésére, amelyeket követni szeretne, és nem kevésbé ennek az élvezetnek a szükségleteiből születnek, mint amazok, és olyanok, akiket sürgetnek a dolgok, akik soha nem hagyják el őket! Elfogadja, hogy gyakran viseli az idők bajait, menekül a boldog bajok elől, keresi a megbocsátás minden örömét, gyűlöli a dolgok szeretetét.</p>
-                                <button class="btn btn-success" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Bezárás
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Portfólió elemének tartalma-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!--Portfolio modal cime-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">koncigány</h2>
-                                <!-- Ikon és elválasztó elhelyezése a cím alá-->
-                                <div class="divider-custom">
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                    <!--Egyedi ikon elhelyezése-->
-                                    <div class="divider-custom-icon"><i class="fas fa-gamepad"></i></div>
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <img class="img-fluid rounded mb-5" src="images/game.png" alt="Game" title="Game">
-                                <p class="mb-4">Maga a cég nagyon sikeres cég. Látni, hogy vannak olyan módok a követésére, amelyeket követni szeretne, és nem kevésbé ennek az élvezetnek a szükségleteiből születnek, mint amazok, és olyanok, akiket sürgetnek a dolgok, akik soha nem hagyják el őket! Elfogadja, hogy gyakran viseli az idők bajait, menekül a boldog bajok elől, keresi a megbocsátás minden örömét, gyűlöli a dolgok szeretetét.</p>
-                                <button class="btn btn-success" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Bezárás
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Portfólió elemének tartalma-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!--Portfolio modal cime-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Safcigány</h2>
-                                <!-- Ikon és elválasztó elhelyezése a cím alá-->
-                                <div class="divider-custom">
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                    <!--Egyedi ikon elhelyezése-->
-                                    <div class="divider-custom-icon"><i class="fas fa-key"></i></div>
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <img class="img-fluid rounded mb-5" src="images/safe.png" alt="Faház" title="Faház">
-                                <p class="mb-4">Maga a cég nagyon sikeres cég. Látni, hogy vannak olyan módok a követésére, amelyeket követni szeretne, és nem kevésbé ennek az élvezetnek a szükségleteiből születnek, mint amazok, és olyanok, akiket sürgetnek a dolgok, akik soha nem hagyják el őket! Elfogadja, hogy gyakran viseli az idők bajait, menekül a boldog bajok elől, keresi a megbocsátás minden örömét, gyűlöli a dolgok szeretetét.</p>
-                                <button class="btn btn-success" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Bezárás
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Portfólió elemének tartalma-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Bezárás"></button></div>
-                <div class="modal-body text-center pb-5">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <!--Portfolio modal cime-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tengericigány</h2>
-                                <!-- Ikon és elválasztó elhelyezése a cím alá-->
-                                <div class="divider-custom">
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                    <!--Egyedi ikon elhelyezése-->
-                                    <div class="divider-custom-icon"><i class="fas fa-ship"></i></div>
-                                    <!--Elválasztó vonal-->
-                                    <div class="divider-custom-line"></div>
-                                </div>
-                                <img class="img-fluid rounded mb-5" src="images/submarine.png" alt="Tengeralatt" title="Tengeralatt">
-                                <p class="mb-4">Maga a cég nagyon sikeres cég. Látni, hogy vannak olyan módok a követésére, amelyeket követni szeretne, és nem kevésbé ennek az élvezetnek a szükségleteiből születnek, mint amazok, és olyanok, akiket sürgetnek a dolgok, akik soha nem hagyják el őket! Elfogadja, hogy gyakran viseli az idők bajait, menekül a boldog bajok elől, keresi a megbocsátás minden örömét, gyűlöli a dolgok szeretetét.</p>
-                                <button class="btn btn-success" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Bezárás
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <small>Ülj be hátra &copy; CIGÁNY TEAM 2023</small>
         </div>
     </div>
 </body>

@@ -77,16 +77,16 @@ html {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: black;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #28A745;
+  color: silver;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #28A745;
+  color: silver;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -108,11 +108,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #28A745;
+    background: silver;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #28A745;
+    background: silver;
   }
 
   #mainNav.navbar-shrink {
@@ -183,7 +183,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #28A745;
+  background-color: silver;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -193,7 +193,7 @@ html {
 }
 
 .portfolio-modal .btn-close {
-  color: #28A745;
+  color: silver;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -229,4 +229,31 @@ html {
   #contactFormStart {
     width: 50%;
   }
+}
+
+.bg-first{
+  background-color: silver;
+}
+
+.tr{
+  background-color: transparent;
+}
+
+.bg-sec{
+  background: url(../images/griddy.gif);
+}
+
+.btn-silver {
+  color: #fff;
+  background-color: silver;
+  border-color: silver;
+}
+.btn-silver:hover {
+  color: #fff;
+  background-color: silver;
+  border-color: silver;
+}
+
+.mt-6{
+  margin-top: 150px;
 }
