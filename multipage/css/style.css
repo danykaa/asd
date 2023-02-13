@@ -1,0 +1,85 @@
+/* Styling the menu logo */
+
+.logo {
+	width: 50px;
+	height: 50px;
+}
+
+/* Making the images responsive */
+
+img {
+	max-width: 100%;
+}
+
+/* Styling the .top-nav */
+
+.top-bar {
+	height: 4rem;
+}
+
+/* Making the various rows extend the full width of the page */
+
+.fullWidth {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+
+/* Styling the background to stay fixed to the browser viewport */
+.backgroundStyle {
+	background: black;
+	height: auto;
+}
+
+/* Styling the GTA background */
+
+.gta-picture {
+	height: 40em;
+	background: url('http://images.bwwstatic.com/columnpic6/300E1626-9C53-D81C-B166BC80502B1501.jpg') center center no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Adding some top padding to the h1 */
+
+.top-space {
+  padding-top: .80em;
+}
+
+/* Adding a radius to the three pictures */
+
+.radiusStyle {
+	width: 240px;
+	height: 240px;
+	border-radius: 100%;
+	text-align: center;
+}
+
+/* Adding a top margin and some line height to the paragraphs under the three pictures */
+
+.paragraph-style {
+	color: white;
+	margin-top: 1.5em;
+	line-height: 1.5;
+}
+
+/* Styling The background for the various pictuers section */
+
+.backgroundStyle2 {
+	background: green;
+	background: rgba(2, 115, 12, .7);
+}
+
+/* Styling the footer section */ 
+
+footer p {
+	background: #009933;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding: .65em;
+}
