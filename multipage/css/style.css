@@ -29,3 +29,56 @@ main > .container {
     background-color: white;
     border-color: white;
 }
+
+.header-hatter-kezdolap {
+    background-image: url(../images/hatterkep3.jpg);
+    background-color: white;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nagyitas-effekt :hover {
+    transform: scale(1.1);
+    transition: transform(1.2s)
+}
+
+.gomb-platformsotet-steam {
+    color: white;
+    min-width: 10rem;
+    height: auto;
+    background-image: url(../images/steam-platform-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: over;
+    padding: 1.50rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.gomb-platformsotet-xbox {
+    color: white;
+    min-width: 10rem;
+    height: auto;
+    background-image: url(../images/xbox-platform-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: over;
+    padding: 1.50rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.gomb-platformsotet-ps {
+    color: white;
+    min-width: 10rem;
+    height: auto;
+    background-image: url(../images/ps4-platform-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: over;
+    padding: 1.50rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
