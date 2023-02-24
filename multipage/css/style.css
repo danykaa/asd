@@ -25,60 +25,101 @@ main > .container {
 }
 
 .gomb-altalanos-sotet:hover {
-    color: black;
-    background-color: white;
-    border-color: white;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.gomb-altalanos-vilagos {
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    width: 5rem;
+}
+  
+.gomb-altalanos-sotet:hover {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
 }
 
 .header-hatter-kezdolap {
-    background-image: url(../images/hatterkep3.jpg);
+    background-image: url("../images/hatter.jpg");
     background-color: white;
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.nagyitas-effekt :hover {
+.gomb-platform-sotet-steam {
+    color: rgb(255, 255, 255);
+    min-width: 10rem;
+    height: auto;
+    background-image: url("../images/steam-platform-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+  
+.gomb-platform-sotet-steam:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    transition: transform 1.5s;
+}
+
+.gomb-platform-sotet-ps4 {
+    color: rgb(255, 255, 255);
+    min-width: 10rem;
+    height: auto;
+    background-image: url("../images/ps4-platform-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.gomb-platform-sotet-ps4:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    transition: transform 1.5s;
+}
+
+.gomb-platform-sotet-xbox {
+    color: rgb(255, 255, 255);
+    min-width: 10rem;
+    height: auto;
+    background-image: url("../images/xbox-platform-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.gomb-platform-sotet-xbox:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    transition: transform 1.5s;
+}
+
+.szekcio-kep {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+
+.nagyitas-effekt:hover {
     transform: scale(1.1);
-    transition: transform(1.2s)
+    transition: transform 1.2s;
 }
-
-.gomb-platformsotet-steam {
-    color: white;
-    min-width: 10rem;
-    height: auto;
-    background-image: url(../images/steam-platform-logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: over;
-    padding: 1.50rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
-.gomb-platformsotet-xbox {
-    color: white;
-    min-width: 10rem;
-    height: auto;
-    background-image: url(../images/xbox-platform-logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: over;
-    padding: 1.50rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
-.gomb-platformsotet-ps {
-    color: white;
-    min-width: 10rem;
-    height: auto;
-    background-image: url(../images/ps4-platform-logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: over;
-    padding: 1.50rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
