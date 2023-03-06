@@ -1,7 +1,7 @@
 /*Tartalom letolása a navigációs sávtól*/
 
-main > .container {
-    padding: 60px 15px 0px;
+main {
+    padding: 100px 15px 0px;
 }
 
 .nav-egyedi {
@@ -21,7 +21,6 @@ main > .container {
 .gomb-altalanos-sotet {
     color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
-    width: 5rem;
 }
 
 .gomb-altalanos-sotet:hover {
@@ -33,10 +32,9 @@ main > .container {
 .gomb-altalanos-vilagos {
     color: rgb(0, 0, 0);
     border-color: rgb(0, 0, 0);
-    width: 5rem;
 }
   
-.gomb-altalanos-sotet:hover {
+.gomb-altalanos-vilagos:hover {
     color: #fff;
     background-color: rgb(0, 0, 0);
     border-color: rgb(0, 0, 0);
@@ -50,6 +48,15 @@ main > .container {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.hunt-header-logo {
+    filter: drop-shadow(0 0 0.1rem rgb(255, 255, 255));
+    max-width: 500px;
+  }
+  
+  .hunt-header-logo:hover {
+    filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
+  }
 
 .gomb-platform-sotet-steam {
     color: rgb(255, 255, 255);
@@ -119,7 +126,50 @@ main > .container {
     border-radius: 20px;
 }
 
+/*Telefon nézet*/
+@media (max-width: 480px) {
+    .szekcio-cimsor {
+        font-size: 20px;
+    }
+    .hunt-header-logo {
+        max-width: 350px;
+    }
+}
+
+/*Asztali nézet*/
+@media (min-width: 1000px) {
+    .szekcio-cimsor {
+        margin-top: 10rem;
+    }
+}
+
+.elvalaszto-vonal {
+    margin: 5rem;
+    border-top: 5px solid;
+    border-radius: 20px;
+}
+
 .nagyitas-effekt:hover {
     transform: scale(1.1);
     transition: transform 1.2s;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.205);
+}
+
+.card-img-top {
+    border-radius: 30px !important;
+    max-width: 500px;
+    margin: auto;
+}
+
+.karakterek-kartya {
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: 0.5px 10px rgba(0, 0, 0, 0.205);
 }
