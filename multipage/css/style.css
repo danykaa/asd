@@ -173,3 +173,10 @@ main {
     text-align: center;
     box-shadow: 0.5px 10px rgba(0, 0, 0, 0.205);
 }
+
+.card-group-space {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
