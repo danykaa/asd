@@ -47,14 +47,16 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
-.hunt-header-logo {
+.gta-logo {
     filter: drop-shadow(0 0 0.1rem rgb(255, 255, 255));
     max-width: 500px;
+    z-index: 2;
   }
   
-  .hunt-header-logo:hover {
+  .gta-logo:hover {
     filter: drop-shadow(0 0 0.4rem rgb(255, 255, 255));
   }
 
@@ -131,7 +133,7 @@ main {
     .szekcio-cimsor {
         font-size: 20px;
     }
-    .hunt-header-logo {
+    .gta-logo {
         max-width: 350px;
     }
 }
@@ -161,22 +163,46 @@ main {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.205);
 }
 
-.card-img-top {
+.card-kepek {
     border-radius: 30px !important;
     max-width: 500px;
     margin: auto;
 }
 
-.karakterek-kartya {
-    padding: 1.5rem;
-    border-radius: 2rem;
-    text-align: center;
-    box-shadow: 0.5px 10px rgba(0, 0, 0, 0.205);
+.card-rounded {
+    border-radius: 30px !important;
 }
 
-.card-group-space {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.card-kep-kicsi {
+    max-width: 700px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.autok-kepek {
+    background-size: cover; 
+    width:200px; 
+    height:200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(58, 58, 58); 
+    color: #fff;
 }
