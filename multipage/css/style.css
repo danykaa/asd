@@ -189,20 +189,3 @@ main {
     object-fit: cover;
     object-position: top;
 }
-
-.btn-social {
-    border-radius: 100%;
-    display: inline-flex;
-    width: 3.25rem;
-    height: 3.25rem;
-    font-size: 1.25rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: rgba(58, 58, 58); 
-    color: #fff;
-}
