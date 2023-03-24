@@ -10,7 +10,7 @@ main {
 
 .nav-logo {
     max-height: 3rem;
-    max-width: auto;
+    max-width: fit-content;
     filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255))
 }
 
