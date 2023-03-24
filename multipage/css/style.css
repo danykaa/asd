@@ -41,7 +41,7 @@ main {
 }
 
 .header-hatter-kezdolap {
-    background-image: url("../images/hatter.jpg");
+    background-image: url("../images/hatter.webp");
     background-color: white;
     height: 600px;
     background-position: center;
@@ -64,7 +64,7 @@ main {
     color: rgb(255, 255, 255);
     min-width: 10rem;
     height: auto;
-    background-image: url("../images/steam-platform-logo.png");
+    background-image: url("../images/steam-platform-logo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ main {
     color: rgb(255, 255, 255);
     min-width: 10rem;
     height: auto;
-    background-image: url("../images/ps4-platform-logo.png");
+    background-image: url("../images/ps4-platform-logo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +104,7 @@ main {
     color: rgb(255, 255, 255);
     min-width: 10rem;
     height: auto;
-    background-image: url("../images/xbox-platform-logo.png");
+    background-image: url("../images/xbox-platform-logo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,6 +135,13 @@ main {
     }
     .gta-logo {
         max-width: 350px;
+    }
+    .autok-kepek {
+        margin-top: 3rem;
+    }
+    .szekcio-kep {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
