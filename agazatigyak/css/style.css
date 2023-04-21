@@ -32,3 +32,13 @@ body {
   margin-right: auto;
   width: 1070px;
 }
+
+.x {
+  background-color: rgb(163, 163, 194);
+}
+
+.kell {
+  border-radius: 10px;
+  border:solid;
+  border-width: 3px;
+}

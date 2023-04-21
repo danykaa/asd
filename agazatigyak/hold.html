@@ -21,7 +21,7 @@
 	<main>
 		<div class="container h-100">
 			<!--Navigáció-->
-			<nav class="navbar navbar-expand-lg content my-1">
+			<nav class="navbar navbar-expand-lg content my-1 kell">
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a class="nav-link text-dark fw-bold" href="#4G">A 4G hálózat</a>
@@ -31,8 +31,8 @@
 					</li>
 				</ul>
 			</nav>
-			<section id="4G">
-				A 4G hálózat
+			<section id="4G" class="x kell">
+				<h1>A 4G hálózat</h1>
 				<p>Az információtechnológia 4G-vel a negyedik generációs vezeték nélküli szolgáltatásokat jelöli.</p>
 				<h3>Története</h3>
 				<ul>
@@ -46,10 +46,10 @@
 			<section id="hold">
 				<div class="row">
 					<div class="col-12 col-md-8 p-2">
-						<div class="p-3 h-100 content">
+						<div class="p-3 h-100 content kell">
 							<h1>Internet a Holdon</h1>
 							<div class="card" style="width: 80%;margin:auto">
-								<!--Kép helye-->
+								<img src="images/nokia.jpg" alt="Nokia a Holdon" title="Nokia Holdon">
 								<div class="card-body">
 									<p class="card-text">Nokia a Holdon</p>
 								</div>
@@ -57,7 +57,7 @@
 						</div>
 					</div>
 					<div class="col-12 col-md-4 p-2">
-						<div class="p-3 h-100 content">
+						<div class="p-3 h-100 content kell">
 							<p>A Földön működő LTE-s hálózatok alkalmasak nagyfelbontású videós tartalmak sugárzásához (így például videochatre) is, hiszen jóval gyorsabb adatátvitelű technológiáról van szó. Hogy a Holdon létesítendő megoldás is használható lesz-e
 								ilyesmire, egyelőre nem tudni, a kapcsolat technikai részleteiről (úgymint a sebesség) nem osztottak meg részleteket.</p>
 							<p>A holdi internethez azért választották a 4G-s technológiát, mert azt könnyebb kiépíteni, szemben például a bonyolultabb 5G-vel.</p>
@@ -65,7 +65,7 @@
 								de
 								ez végül nem tudott megvalósulni.</p>
 							<div class="card" style="width: 100%; margin:auto">
-								<!--Kép helye-->
+								<img src="images/nokiabell.jpg" alt="Nokia Űrszonda" title="Nokia Űr">
 								<div class="card-body">
 									<p class="card-text">Nokia űrszonda</p>
 								</div>
@@ -75,9 +75,12 @@
 				</div>
 				<section id="wifi">
 					<div class="col-12 col-md-12 p-2">
-						<div class="p-3 h-100 content">
-							<!--Kép helye-->
-							A NASA ezek alapján úgy látja, érdemes lenne egy ilyen módszerrel megoldani a Holdon is a kérdést. Erre a tervek szerint az évtized végéig sor kerül.
+						<div class="p-3 h-100 content kell">
+							<h2 class="text-center">A NASA mérnökei kitalálták, hogyan lehetne a majdani Hold-bázis teljes területén wifi-hálózaton kommunikálni.</h2>
+							<p>Az Artemis-programmal vetné meg a lábát a Holdon az Egyesült Államok: az asztronauták hosszabb ideig az égitest felszínén élnének és dolgoznának. Ennek egyik alapfeltétele – persze a Hold-bázis mellett – egy zökkenőmentesen működő kommunikációs hálózat. A NASA korábban már jelezte, a Nokiával közösen 4G LTE hálózatot hozna létre ott, most pedig már a wifi kiépítését tervezgeti.</p>
+							<p> A szervezet clevelandi kutatóközpontja azt vizsgálta, hogy az kandeláberket miként lehetne úgy átalakítani, hogy azok szélessávú internetelérést biztosítsanak. A számítások alapján Cleveland egyik városrészében – ami nagyjából akkora, mint amekkora a Hold-bázis lesz – mintegy 20 ezer lámpaoszlopot kellene routerré alakítani. Ennek köszönhetően, ha legfeljebb 100 méterenként van egy ilyen kandeláber, akkor egy négyfős háztartásnak egy ilyen lámpaoszlop körülbelül 7,5 Mbps letöltési sebességet biztosíthat.</p>
+							<img src="images/nasa.jpg" alt="Nasakep" title="Nasa">
+							<p>A NASA ezek alapján úgy látja, érdemes lenne egy ilyen módszerrel megoldani a Holdon is a kérdést. Erre a tervek szerint az évtized végéig sor kerül.</p>
 						</div>
 					</div>
 				</section>
@@ -85,9 +88,6 @@
 	<!--Lábléc-->
 	<footer class="lablec text-center p-2 mt-1 bg-secondary">
 		<!--Hivatkozás helye-->
-		<div class="container">
-            <span><small>4G hálózat a Holdon</small></span>
-        </div>
 	</footer>
 	</section>
 	</div>
