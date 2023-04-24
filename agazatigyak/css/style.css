@@ -1,5 +1,8 @@
 .content {
   background-color: rgba(163, 163, 194);
+  border-radius: 10px;
+  border:solid;
+  border-width: 3px;
 }
 
 .lablec {
@@ -8,6 +11,7 @@
 }
 
 .lablec a:hover {
+  background-color: rgb(163, 163, 194);
 }
 
 body {
@@ -35,9 +39,6 @@ body {
 
 .x {
   background-color: rgb(163, 163, 194);
-}
-
-.kell {
   border-radius: 10px;
   border:solid;
   border-width: 3px;

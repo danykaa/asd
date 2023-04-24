@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="hu" class="h-100">
+<html lang="hu">
+
 <head>
-	<title>4G hálózat a Holdon</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>4G hálózat a Holdon</title>
 	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 	<main>
 		<div class="container h-100">
 			<!--Navigáció-->
-			<nav class="navbar navbar-expand-lg content my-1 kell">
+			<nav class="navbar navbar-expand-lg content my-1">
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a class="nav-link text-dark fw-bold" href="#4G">A 4G hálózat</a>
@@ -29,13 +29,16 @@
 					<li class="nav-item ">
 						<a class="nav-link text-dark fw-bold" href="#hold">Internet a Holdon</a>
 					</li>
+					<li class="nav-item ">
+						<a class="nav-link text-dark fw-bold" href="#wifi">WiFi a Holdon</a>
+					</li>
 				</ul>
 			</nav>
-			<section id="4G" class="x kell">
+			<section id="4G" class="x">
 				<h1>A 4G hálózat</h1>
-				<p>Az információtechnológia 4G-vel a negyedik generációs vezeték nélküli szolgáltatásokat jelöli.</p>
+				<p style="font-weight: bold;">Az információtechnológia 4G-vel a negyedik generációs vezeték nélküli szolgáltatásokat jelöli.</p>
 				<h3>Története</h3>
-				<ul>
+				<ul class="my-2">
 					<li>Az első 4G technológiát építő távközlési vállalat a brit Truphone volt,</li>
 					<li>az új hálózatnak köszönhetően a telekommunikáció az addiginál olcsóbbá válhatott,</li>
 					<li>az adatátvitel a SIP szabvány szerint működik,</li>
@@ -46,48 +49,51 @@
 			<section id="hold">
 				<div class="row">
 					<div class="col-12 col-md-8 p-2">
-						<div class="p-3 h-100 content kell">
+						<div class="p-3 h-100 content">
 							<h1>Internet a Holdon</h1>
-							<div class="card" style="width: 80%;margin:auto">
-								<img src="images/nokia.jpg" alt="Nokia a Holdon" title="Nokia Holdon">
+							<p style="font-style: italic;">A világ egyik legnagyobb telekommunikációs vállalatát, a hálózatépítésben továbbra is nagy játékosnak számító Nokiát választotta a NASA arra a munkára, melynek célja, hogy 4G LTE-s hálózat létesüljön a Hold felszínén. Az Holdra való visszatérést célzó Artemis-projekthez tartozó feladatot 14,1 millió dollárért végezheti el a finn gyártó. A munka határideje nem ismert.</p>
+							<p>Az Artemis a NASA ambiciózus holdprogramja, amely során női és férfi űrhajósok lépnek majd égi kísérőnk déli pólusára, hogy előkészítsék a terepet a 2030-as évekre tervezett (emberes) marsutazásokhoz. A küldetésnek 2024-ig kell megvalósulnia, számos tudományos, illetve üzleti partner bevonásával. Mivel az űrhajósokra is rengeteg munka vár, a NASA a kommunikáció megkönnyítése érdekében gyors és stabil internet-hálózatot építettet ki az égitesten – a már említett Nokia részvételével.</p>
+							<div class="card" style="width: 80%;margin: auto">
+								<img src="images/nokia.jpg" alt="Nokia a Holdon" title="Nokia a Holdon">
 								<div class="card-body">
-									<p class="card-text">Nokia a Holdon</p>
+									<p class="card-text text-center fw-bold">Nokia a Holdon</p>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 col-md-4 p-2">
-						<div class="p-3 h-100 content kell">
+						<div class="p-3 h-100 content">
 							<p>A Földön működő LTE-s hálózatok alkalmasak nagyfelbontású videós tartalmak sugárzásához (így például videochatre) is, hiszen jóval gyorsabb adatátvitelű technológiáról van szó. Hogy a Holdon létesítendő megoldás is használható lesz-e
 								ilyesmire, egyelőre nem tudni, a kapcsolat technikai részleteiről (úgymint a sebesség) nem osztottak meg részleteket.</p>
 							<p>A holdi internethez azért választották a 4G-s technológiát, mert azt könnyebb kiépíteni, szemben például a bonyolultabb 5G-vel.</p>
 							<p>A Nokiának ez a második holdi internetprojektje: 2018-ban a Vodafone-nal és a német PTScientists csoporttal együtt belevágott egy kísérletbe, hogy az égitesten létesített LTE-hálózattal sugározzon nagyfelbontású videókat a Holdról,
 								de
 								ez végül nem tudott megvalósulni.</p>
-							<div class="card" style="width: 100%; margin:auto">
-								<img src="images/nokiabell.jpg" alt="Nokia Űrszonda" title="Nokia Űr">
+							<div class="card" style="width: 100%; margin: auto">
+								<img src="images/nokiabell.jpg" alt="Nokia Űrszonda" title="Nokia Űrszonda">
 								<div class="card-body">
-									<p class="card-text">Nokia űrszonda</p>
+									<p class="card-text text-center fw-bold">Nokia űrszonda</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<section id="wifi">
-					<div class="col-12 col-md-12 p-2">
-						<div class="p-3 h-100 content kell">
-							<h2 class="text-center">A NASA mérnökei kitalálták, hogyan lehetne a majdani Hold-bázis teljes területén wifi-hálózaton kommunikálni.</h2>
-							<p>Az Artemis-programmal vetné meg a lábát a Holdon az Egyesült Államok: az asztronauták hosszabb ideig az égitest felszínén élnének és dolgoznának. Ennek egyik alapfeltétele – persze a Hold-bázis mellett – egy zökkenőmentesen működő kommunikációs hálózat. A NASA korábban már jelezte, a Nokiával közösen 4G LTE hálózatot hozna létre ott, most pedig már a wifi kiépítését tervezgeti.</p>
-							<p> A szervezet clevelandi kutatóközpontja azt vizsgálta, hogy az kandeláberket miként lehetne úgy átalakítani, hogy azok szélessávú internetelérést biztosítsanak. A számítások alapján Cleveland egyik városrészében – ami nagyjából akkora, mint amekkora a Hold-bázis lesz – mintegy 20 ezer lámpaoszlopot kellene routerré alakítani. Ennek köszönhetően, ha legfeljebb 100 méterenként van egy ilyen kandeláber, akkor egy négyfős háztartásnak egy ilyen lámpaoszlop körülbelül 7,5 Mbps letöltési sebességet biztosíthat.</p>
-							<img src="images/nasa.jpg" alt="Nasakep" title="Nasa">
-							<p>A NASA ezek alapján úgy látja, érdemes lenne egy ilyen módszerrel megoldani a Holdon is a kérdést. Erre a tervek szerint az évtized végéig sor kerül.</p>
-						</div>
+			</section>
+			<section id="wifi">
+				<div class="col-12 col-md-12 p-2">
+					<div class="p-3 h-100 content">
+						<h2 class="text-center">A NASA mérnökei kitalálták, hogyan lehetne a majdani Hold-bázis teljes területén wifi-hálózaton kommunikálni.</h2>
+						<p>Az Artemis-programmal vetné meg a lábát a Holdon az Egyesült Államok: az asztronauták hosszabb ideig az égitest felszínén élnének és dolgoznának. Ennek egyik alapfeltétele – persze a Hold-bázis mellett – egy zökkenőmentesen működő kommunikációs hálózat. A NASA korábban már jelezte, a Nokiával közösen 4G LTE hálózatot hozna létre ott, most pedig már a wifi kiépítését tervezgeti.</p>
+						<p> A szervezet clevelandi kutatóközpontja azt vizsgálta, hogy az kandeláberket miként lehetne úgy átalakítani, hogy azok szélessávú internetelérést biztosítsanak. A számítások alapján Cleveland egyik városrészében – ami nagyjából akkora, mint amekkora a Hold-bázis lesz – mintegy 20 ezer lámpaoszlopot kellene routerré alakítani. Ennek köszönhetően, ha legfeljebb 100 méterenként van egy ilyen kandeláber, akkor egy négyfős háztartásnak egy ilyen lámpaoszlop körülbelül 7,5 Mbps letöltési sebességet biztosíthat.</p>
+						<img src="images/nasa.jpg" alt="NASA" class="my-3 w-100" title="NASA">
+						<p>A NASA ezek alapján úgy látja, érdemes lenne egy ilyen módszerrel megoldani a Holdon is a kérdést. Erre a tervek szerint az évtized végéig sor kerül.</p>
 					</div>
-				</section>
+				</div>
+			</section>
 	</main>
 	<!--Lábléc-->
 	<footer class="lablec text-center p-2 mt-1 bg-secondary">
-		<!--Hivatkozás helye-->
+		<a href="https://www.cnbc.com/2020/10/19/nasa-is-launching-a-4g-mobile-network-on-the-moon.html" target="_blank">4G hálózat a Holdon</a>
 	</footer>
 	</section>
 	</div>
